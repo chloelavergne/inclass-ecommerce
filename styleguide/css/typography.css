@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+  Colour Palette
+  - Dark blue: #1B315D (27, 49, 93)
+  - Medium blue: #2A3C63 (42, 60, 99)
+  - Dark turquoise: #1880A0 (24, 128, 160)
+  - Gray-blue: #809BAA (128, 155, 170)
+  - Pale blue: #9ABACF (154, 186, 207)
+ */
+
+
+html{
+	font: normal 100%/1.5 Georgia, serif; /*16px/24px*/
+}
+
+::selection{
+	background-color: #1880A0;
+	color: #fff;
+}
+
+a,
+a:link {
+	color: #1880A0;
+	text-decoration: none;
+	border-bottom: 0.1em solid #1880A0;
+	transition: all 200ms linear;
+}
+
+a:visited{
+	color: #809BAA;
+	border-bottom-color: #809BAA;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #9ABACF;
+	border-bottom-color: #9ABACF;
+}
+
+h1, h2, h3, h4, h5, h6, 
+p, ul, ol, dl,
+table {
+	margin: 0 0 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: #1B315D;
+	font-weight: bolder;
+}
+
+p{
+	color: #2A3C63;
+}
+.yotta{
+	font-size: 2.28rem; /*36.48px/54.72px*/
+	line-height: 1.315;
+}
+
+.zetta{
+	font-size: 2.027rem;
+}
+
+h1, .exa{
+	font-size: 1.802rem;
+	line-height: 1.6648;
+}
+
+h2, .peta {
+	font-size: 1.602rem;
+	line-height: 1.8729;
+}
+
+h3, .tera {
+	font-size: 1.424rem;
+	line-height: 1.0535;
+}
+
+h4, .giga {
+	font-size: 1.266rem;
+	line-height: 1.1852;
+}
+
+h5, .mega {
+	font-size: 1.125rem;
+	line-height: 1.3333;
+}
+
+h6, .kilo {
+	font-size:1rem;
+	line-height: 1.5000;
+}
+
+small, .milli{
+	font-size: 0.889rem;
+}
+
+.macro{
+	font-size: 0.79rem;
+}
+
+.zetta{
+	font-size: 2.027rem;
+}
+
+.yotta{
+	font-size: 2.28rem;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	position: relative;
+	color: #2A3C63;
+}
+
+ol li{
+	color: #2A3C63;
+}
+
+dl{
+	color: #2A3C63;
+}
+
+td{
+    color:#1880A0; 
+}
+
+th{
+	color:#1B315D;
+}
+
+caption{
+	color: #2A3C63;
+}
+
+mark{
+	background-color: #9ABACF;
+	color: #fff;
+}
+
+ul li:before{
+	content: "•";
+	color: #9ABACF;
+	position: absolute;
+	left: -1.1em;
+}
